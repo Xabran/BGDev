@@ -1,0 +1,14 @@
+.chosen-results {
+  min-height: 10px;
+  min-width: 10px;
+}
+
+.chosen-container { min-width: 400px !important; }
+
+#infusionsoft_tab {
+  padding-bottom:  170px;
+}
+
+#infusionsoft_tab .chosen-container-multi .chosen-choices li.search-field input.default {
+	height: 25px !important;
+}

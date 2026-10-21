@@ -1,0 +1,34 @@
+.redux-main .cmk_custom_code .form-table th {
+	display: none;
+}
+.redux-main .cmk_custom_code .redux-field-container {
+	padding-top: 0;
+}
+.redux-container .cmk_custom_code.redux-group-tab h3 {
+	margin-bottom: 0;
+}
+#cmkdynatheme-custom_php_field_options {
+	text-align: center;
+	padding: 10px 0;
+}
+.redux-container h3 {
+	margin: 0;
+}
+.redux-main .redux-field-container {
+	padding: 5px 0;
+} 
+#cmkdynatheme-cmk-custom-css .redux_field_th, 
+#cmkdynatheme-cmk-custom-php .redux_field_th,
+#cmkdynatheme-cmk-custom-script .redux_field_th {
+	display: none;
+}
+.cmk_custom_script .redux_field_th {
+	padding: 10px 0 10px;
+}
+.cmk_custom_script .redux_field_th span:first-child {
+	display: none;
+}
+.redux-action_bar #redux-defaults-section, 
+.redux-action_bar #redux-defaults {
+    display: none;
+}

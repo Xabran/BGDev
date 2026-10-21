@@ -1,0 +1,381 @@
+.payment-form-container {
+	
+}
+
+div.payment-method-button {
+	overflow: hidden;
+	margin-top: -1px;
+}
+
+div.payment-method-button span {
+	float: right;
+	color: #3c94d4;
+	background: none;
+	cursor: pointer;
+	font-size: 14px;
+	border: none;
+}
+
+.payment_method_braintree_payment_gateway .payment-method-form {
+	overflow: hidden;
+}
+
+.payment-method-form span {
+	color: #000;
+}
+
+.payment-method-form .payment-method-item {
+	position: relative;
+	line-height: 150%;
+	color: #6E787F;
+}
+
+.payment-method-form .card-label {
+	height: 56px;
+	position: relative;
+	display: block;
+	border-top: solid 1px #DEE2E5;
+	border-bottom: solid 1px #DEE2E5;
+	padding: 0px 0;
+	margin-top: -1px;
+	z-index: 1;
+	position: relative;
+	overflow: hidden;
+	cursor: pointer;
+	-webkit-transform: translate3d(0, 0, 0);
+	-moz-transform: translate3d(0, 0, 0);
+	-ms-transform: translate3d(0, 0, 0);
+	-o-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+	-webkit-transition: background-color 131ms linear;
+	-moz-transition: background-color 131ms linear;
+	transition: background-color 131ms linear;
+}
+
+.payment-method-form .card-label.selected {
+	background: #E8F5EB;
+}
+
+.payment-method-type {
+	background-image: url('../images/payment-method-sprites.png');
+	position: absolute;
+	display: inline;
+	width: 50px;
+	height: 30px;
+	pointer-events: none;
+	margin-left: 20px;
+	transform: translatey(-50%);
+	-webkit-transform: translatey(-50%);
+	-ms-transform: translatey(-50%);
+	top: 50%;
+}
+.small-container .payment-method-type{
+	margin-left: 0px;
+	top: 30%;
+}
+@media ( max-width : 420px) {
+	.payment-method-type {
+		margin-left: 5px;
+	}
+}
+
+@media ( max-width : 375px) {
+	.payment-method-type {
+		margin-left: 0px;
+	}
+}
+
+.payment-method-type.MasterCard {
+	background-image: url('../images/payment-method-sprites.png');
+	background-size: 86px auto;
+	background-position: 0 -268px;
+}
+
+.payment-method-type.Visa {
+	background-size: 86px auto;
+	background-position: 0 -380px;
+	width: 44px;
+	height: 28px
+}
+
+.payment-method-type.Discover {
+	background-image: url('../images/payment-method-sprites.png');
+	background-size: 110px auto;
+	background-position: 0 -203px;
+}
+
+.payment-method-type.Maestro {
+	background-image: url('../images/payment-method-sprites.png');
+	background-size: 86px auto;
+	background-position: 0 -240px;
+}
+
+.payment-method-type.AmericanExpress {
+	background-image: url('../images/payment-method-sprites.png');
+	background-size: 86px auto;
+	background-position: 0 -352px;
+}
+
+.payment-method-type.JCB {
+	background-image: url('../images/payment-method-sprites.png');
+	background-size: 86px auto;
+	background-position: 0 -212px;
+}
+
+.payment-method-type.paypal {
+	margin-left: 15px;
+	background-image: url('../images/payment-method-sprites.png');
+	background-size: 96px auto;
+	background-position: 0 -454px;
+}
+
+.payment-method-description {
+	padding-left: 85px;
+	padding-top: 5px;
+	margin-top: 5px;
+	padding-bottom: 5px;
+	letter-spacing: 1px;
+	font-weight: 600;
+	line-height: 56px;
+}
+.small-container .payment-method-description{
+	padding-left: 6px;
+    padding-top: 0px;
+    margin-top: 25px;
+    padding-bottom: 5px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    line-height: 20px;
+    font-size: 14px;
+    width: 100%;
+    display: block;
+}
+@media ( max-width : 480px) {
+	.payment-method-description {
+		display: block;
+		padding-left: 5px;
+		width: 75%;
+		float: right;
+		line-height: 150%;
+	}
+	.payment-method-type {
+		top: 30%;
+	}
+	div.payment-method-button {
+		padding-bottom: 10px;
+	}
+}
+
+.accepted-payment-methods .payment-method {
+	max-width: 25px !important;
+}
+
+.accepted-payment-methods div.payment-method {
+	max-width: 28px !important;
+	display: inline-block !important;
+}
+
+.accepted-payment-methods .payment-method img {
+	width: 100%;
+	padding: 0px;
+}
+
+.save-payment-method {
+	width: 20px;
+	display: inline;
+	position: relative;
+}
+
+#braintree_dropin_container .save-payment-method-label {
+	margin-top: 10px;
+}
+
+.save-payment-method input[type="checkbox"] {
+	visibility: hidden;
+}
+
+.save-payment-method label {
+	width: 20px;
+	height: 20px;
+	cursor: pointer;
+	margin-left: 14px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: #fff;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+	border-radius: 3px;
+	box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.5), 0px 1px 0px
+		rgba(255, 255, 255, 0.4);
+}
+
+.save-payment-method label:after {
+	content: '';
+	width: 17px;
+	height: 10px;
+	position: absolute;
+	top: 4px;
+	left: 2px;
+	border: 3px solid #61d395;
+	border-top: none;
+	border-right: none;
+	background: transparent;
+	opacity: 0;
+	-webkit-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+}
+
+.save-cc-helper {
+	margin-top: 5px;
+	font-size: 16px;
+	color: #737573;
+	font-weight: 500;
+	position: relative;
+	padding: 0 14px;
+}
+
+.save-payment-method input[type=checkbox]:checked+label:after {
+	opacity: 1;
+}
+
+.braintree-error-clientToken {
+	color: #ED574A;
+}
+.payment_method_braintree_paypal_payments .paypalContainer .paypal-payment-method{
+	position: relative;
+    border-top: solid 1px #DEE2E5;
+    border-bottom: solid 1px #DEE2E5;
+    padding: 0px;
+    width: 100%;
+    background: #fff;
+    height: 65px;
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.payment_method_braintree_paypal_payments .paypalContainer .paypal-payment-method span.description{
+	padding-left: 45px;
+	font-weight: 600;
+}
+.paypalContainer .paypal-payment-method .payment-method-type {
+	background-image: url('../images/payment-method-sprites.png');
+	position: absolute;
+	display: inline;
+	width: 50px;
+	height: 30px;
+	pointer-events: none;
+	margin-left: 20px;
+	transform: translatey(-50%);
+	-webkit-transform: translatey(-50%);
+	-ms-transform: translatey(-50%);
+	top: 50%;
+}
+.paypalContainer .paypal-payment-method .payment-method-type.paypal{
+	margin-left: 0px;
+	background-image: url('../images/payment-method-sprites.png');
+	background-size: 96px auto;
+	background-position: 0 -454px;
+}
+.paypalContainer .paypal-payment-method #cancel_paypal_payment{
+	color: #3c94d4;
+	cursor: pointer;
+	margin-right: 5px;
+}
+@media screen and (max-width: 370px){
+	.paypalContainer .paypal-payment-method .payment-method-type{
+		top: 20%;
+	}
+	.paypalContainer .paypal-payment-method #cancel_paypal_payment{	
+		width: 100%;
+	    text-align: right;
+	}
+}
+#braintree_3ds_container{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	left: 0;
+	top: 0;
+	display: none;
+	opacity: 1;
+	background: rgba(0, 0, 0, 0.8);
+	//transition: all 500ms linear;
+}
+.threeDS-body{
+	overflow: hidden;
+}
+.threeDS-hosted-modal  {
+	position: relative;
+	top: 0;
+	left: 0;
+	display: flex;
+	display: -webkit-flex;
+	height: 100vh;
+	opacity: 1;
+	width: 100%;
+	z-index: 9999999999;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.threeDS-hosted-modal .threeDS-container {
+	height: 480px;
+	width: 440px;
+	background: #fff;
+	padding: 0px;
+	border-radius: 4px;
+	background-color: #eee;
+	margin: 0 auto;
+}
+.threeDS-hosted-modal .threeDS-container .threeDS-frame-body {
+	height: 400px;
+	width: 100%;
+	margin: 0px;
+	background-color: white;
+	border: 1px solid lightgray;
+}
+
+#braintree_custom_form{
+	position: relative;
+}
+.threeDS-modal-header{
+	height: 40px;
+	text-align: center;
+	background: transparent;
+	line-height: 40px;
+}
+.threeDS-cancel{
+	height: 40px;
+	text-align: center;
+	color: #337ab7;
+	cursor: pointer;
+	width: 100%;
+	background: transparent;
+	line-height: 40px;
+}
+#braintree_custom_form .threeDS-spinner{
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: flex;
+	display: -webkit-flex;
+	width: 100%;
+	height: 100%;
+	justify-content: center;
+	align-items: center;
+	z-index: 999;
+	background: rgba(0,0,0,0.7);
+}
+#braintree_custom_form .custom-form-checkout-loader{
+	display: flex;
+	display: -webkit-flex;
+	border: 3px solid #85e2af;
+	justify-content: center;
+	align-items: center;
+	padding: 10px;
+}
+#braintree_custom_form .custom-form-checkout-loader h1{
+	margin: 0px;
+}

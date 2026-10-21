@@ -1,0 +1,780 @@
+/*Style sheet for the admin pages.*/
+.subscriptions-notActive h2 {
+	color: red;
+	font-weight: 600;
+	font-size: 20px;
+}
+
+.braintree-custom-form {
+	margin-top: 20px;
+}
+
+.woo-order-settings {
+	margin-top: 30px;
+}
+
+.template-code-header {
+	display: inline-block;
+	margin: 0px;
+	padding: 0px;
+}
+
+.donation-form-code-input {
+	min-width: 300px;
+}
+
+.donaton-form-code h4 {
+	display: inline-block;
+	padding: 0px;
+	margin: 0px;
+}
+
+.donaton-form-style h4 {
+	display: inline-block;
+	padding: 0px;
+	margin: 0px;
+}
+
+.donation-order-description h4 {
+	display: inline-block;
+	padding: 0px;
+	margin: 0px;
+}
+
+.donation-fieldValidations h2 {
+	display: inline-block;
+	margin: 0px;
+	padding: 0px;
+	margin-bottom: 10px;
+}
+
+.donation-validationFields {
+	margin-top: 10px;
+}
+
+.braintree-payments-form {
+	font-size: 0px;
+}
+
+.subscription-order-prefix h4 {
+	display: inline-block;
+}
+
+.braintree-paymentmethods {
+	vertical-align: top;
+}
+
+.paypal-logo-blue {
+	color: white;
+	background: linear-gradient(-180deg, #009cde 0%, #0083de 100%);
+	padding: 10px 10px;
+	width: 120px;
+	height: 40px;
+	border-radius: 4px;
+}
+
+.license-activation-url span a {
+	font-size: 18px;
+	color: #fff; //
+	text-decoration: none;
+}
+
+.next-license-activation span {
+	font-size: 14px;
+	color: #fff;
+}
+
+.woopayments-explanation {
+	width: 70%;
+}
+
+@media ( max-width : 640px) {
+	.woopayments-explanation {
+		width: 90%;
+	}
+}
+
+.account-title h1 {
+	font-size: 24px;
+	letter-spacing: 1px;
+}
+
+.braintree-payments-div-table h2 {
+	font-size: 20px;
+	font-weight: 600;
+	display: inline-block;
+}
+
+.woopayments-enabled h2, .braintree-ach-enabled h2 {
+	display: inline-block;
+}
+
+.woopayments-paypal-enabled h2 {
+	display: inline-block;
+}
+
+.woopayments-setting-paypal {
+	display: inline-block;
+	width: 60%;
+	vertical-align: top;
+}
+
+.woopayments-setting-paypal-left {
+	display: inline-block;
+	vertical-align: top;
+	width: 30%;
+}
+
+@media ( max-width : 560px) {
+	.woopayments-setting-paypal {
+		width: 100%;
+	}
+}
+
+.paypal-logo {
+	display: inline-block;
+	width: 48%;
+}
+
+.checkout-form-select {
+	margin-bottom: 10px;
+}
+
+.braintree-payment-form {
+	background: transparent;
+	max-width: 500px;
+}
+
+.accepted-paymentmethods {
+	max-width: 500px;
+}
+
+.payment-method-image {
+	display: inline-block;
+	margin-left: 10px;
+	margin-top: 20px;
+}
+
+.payment-method-image img {
+	width: 30px;
+	vertical-align: bottom;
+	padding: 0px;
+}
+
+.braintree-log-entry {
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 170%;
+}
+
+.braintree-log-entry, .braintree-log-array {
+	margin-top: 20px;
+	max-width: 1024px;
+}
+
+.braintree-subscription-setting, .braintree-subscription-config {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.braintree-subscription-config {
+	margin-right: 50px;
+}
+
+.api-settings-button {
+	font-weight: 600;
+	font-size: 22px;
+	margin-right: 20px;
+	margin-top: 20px;
+}
+
+.paypal-environment-td {
+	background-color: #fff;
+	height: 40px;
+	border: 1px solid #d2d2d2;
+}
+
+.braintree-subscriptions-config {
+	margin-top: 20px;
+}
+
+.braintree-subscriptions-config div {
+	margin-top: 5px;
+}
+
+.braintree-subscriptions-config { //
+	border: 1px solid #5D7B9D;
+}
+
+.braintree-subscription-config-div {
+	font-size: 14px;
+	background-color: #5D7B9D;
+	width: 80%;
+}
+
+.braintree-subscription-config-div span {
+	color: #fff;
+	font-weight: 600;
+	padding: 5px;
+}
+
+ul.product_data_tabs li.display-none {
+	display: none !important;
+}
+
+.wp_subscriptions_options {
+	display: none;
+}
+
+.braintree-tooltip {
+	position: absolute;
+	right: 10px;
+	transform: translatey(-50%);
+	top: 50%;
+	z-index: 999;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translatey(-50%);
+}
+
+.braintree-tooltip img {
+	width: 18px;
+	height: 18px;
+	padding-right: 10px;
+}
+
+.tooltip-description {
+	visibility: hidden;
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	width: 200px;
+	background: rgba(0, 0, 0, .9);
+	color: #fff;
+	padding: 10px;
+	z-index: 9999;
+	border-radius: 5px;
+	transition: all 0.5s linear;
+}
+
+.tooltip-description a {
+	color: #fff;
+}
+
+.braintree-tooltip:hover .tooltip-description {
+	visibility: visible;
+	opacity: 1;
+}
+
+.braintree-table-row {
+	border-top: 1px solid #E8E8E8;
+	border-bottom: 1px solid #E8E8E8;
+}
+
+.braintree-table-row th {
+	padding: 20px 5px;
+	text-align: left;
+	width: 40%;
+	position: relative;
+}
+
+.braintree-settings-td {
+	width: 60%;
+}
+
+.braintree-settings-td .license--Inactive {
+	color: #DE2727;
+	font-weight: 600;
+	font-size: 16px;
+}
+
+.braintree-settings-td .license--Active {
+	color: #2dbb6e;
+	font-weight: 600;
+	font-size: 16px;
+}
+
+.braintree-table-row .publicKey, .braintree-table-row .privateKey {
+	width: 100%;
+	max-width: 300px;
+}
+
+.braintree-table-row th label {
+	font-size: 16px;
+}
+
+.payment-method-img {
+	height: 20px;
+	vertical-align: top;
+	margin-right: 20px;
+}
+
+.braintree-settings-td input[type="image"] {
+	vertical-align: top;
+}
+
+.braintree-settings-td .braintree-settings-div {
+	display: inline-block;
+	padding-right: 20px;
+	padding-top: 10px;
+	margin-bottom: 10px;
+}
+
+.braintree-settings-div  .accountActive {
+	color: #72C791;
+	font-weight: 600;
+	font-size: 18px;
+}
+
+,
+.braintree-settings-div  .accountInactive {
+	color: #72C791;
+	font-weight: 600;
+	font-size: 18px;
+}
+
+.braintree-woocommerce-settings {
+	margin: 10px 0px;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+.subscription-notes-input {
+	width: 300px;
+	height: 40px;
+}
+
+.braintree-title-description {
+	max-width: 800px;
+	margin-bottom: 15px;
+}
+
+.braintree-title-description span {
+	font-weight: 600;
+}
+
+.braintree-public-key, .paymentplugins-public-key,
+	.paymentplugins-private-key {
+	width: 300px;
+}
+
+.braintree-checkmark {
+	width: 45px;
+	vertical-align: bottom;
+}
+
+.braintree-logo-header {
+	width: 150px;
+}
+
+.braintree-logo-inner {
+	display: inline-block;
+}
+
+.braintree-logo-inner a {
+	margin: 0px;
+}
+
+.braintree-header ul {
+	margin-left: 30px;
+	margin-top: 5px;
+}
+
+.braintree-deletelog-form {
+	display: inline-block
+}
+
+.checkout-form-settings {
+	margin-top: 20px;
+}
+
+.braintree-header {
+	width: 100%;
+	background-color: #3e3c42;
+	margin-left: -10px;
+	padding: 10px;
+}
+
+.braintree-header ul {
+	display: inline-block;
+}
+
+.braintree-header ul li {
+	display: inline-block;
+	margin-right: 20px;
+	border-right: 1px solid #fff;
+	padding-right: 20px;
+}
+
+.braintree-header ul li a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.braintree-payments-save, .braintree-admin-button, .admin-options-links ul li a
+	{
+	background-color: #61D395;
+	font-weight: 600;
+	color: #fff;
+	border: none;
+	padding: 8px 20px;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.admin-options-links ul li a:hover {
+	background-color: #93EFBD;
+}
+
+.admin-options-links ul li {
+	display: inline !important;
+}
+
+.admin-options-links ul li a {
+	display: inline-block;
+	margin: 10px;
+}
+
+.braintree-deletelog-form {
+	margin-top: 20px;
+}
+
+.braintree-admin-options ul li {
+	font-size: 14px;
+	color: #000;
+}
+
+.div--subscriptionExplanation {
+	margin: 10px 0px;
+}
+
+.account-title .h1--DonationButtonDesign {
+	font-size: 18px;
+	margin-top: 30px;
+}
+
+div.show_if_subscription .braintree_plans_options {
+	clear: left;
+}
+
+.braintree_plans_options h3 {
+	padding: 5px 5px;
+}
+
+.braintree-table-row.tr--subItem .braintree-tooltip {
+	right: -10px;
+}
+
+.braintree-table-row.tr--subItem label {
+	margin-left: 20px;
+}
+
+.braintree-table-row.tr--subItem label.settingsLabel:before {
+	content: '\bb';
+	color: #61D395;
+	font-size: 25px;
+	margin-right: 5px;
+}
+
+.braintree-table-row.tr--subItem th {
+	margin-left: 20px;
+}
+
+.braintree-table-row.tr--subItem td {
+	padding-left: 20px;
+}
+
+.input--webhookUrl {
+	width: 100%;
+}
+
+.prefixInput {
+	width: 300px;
+}
+
+.braintree-tooltip span.example {
+	margin-top: 10px;
+	display: block;
+}
+
+.donation-url {
+	width: 100%;
+}
+
+.dashicons.dashicons-trash:before {
+	cursor: pointer;
+}
+
+table.merchant-account-add tr {
+	width: 100%;
+	display: block;
+}
+
+@media ( max-width : 860px) {
+	table.merchant-account-add tr {
+		width: 100%;
+	}
+}
+
+.admin-success-message {
+	color: #47d387;
+}
+
+.admin-error-message {
+	color: #ED574A;
+}
+
+.explanation-img img {
+	max-width: 560px;
+	margin: 10px 0px;
+}
+
+.explanation div {
+	line-height: 180%;
+}
+
+.div--tutorialHeader ul li {
+	display: inline-block;
+	padding: 0px 20px;
+}
+
+.braintree-explanation-container {
+	display: none;
+}
+
+.braintree-explanation-container.display {
+	display: block;
+}
+
+.braintree-explanation-container textarea {
+	width: 600px;
+	display: block;
+}
+
+.braintree-explanation-container a {
+	cursor: pointer;
+}
+
+.braintree-explanation-container ul li {
+	list-style: disc;
+}
+
+.braintree-explanation-container ul {
+	margin-left: 30px;
+}
+.braintree-explanation-container h5{
+	margin: 0px;
+}
+.div_braintree_plans {
+	position: relative;
+}
+
+div.show_if_subscription .div_braintree_plans {
+	clear: left;
+}
+
+div.show_if_subscription div.braintree_plans_options p {
+	padding-left: 5px !important;
+}
+
+div.show_if_subscription div.braintree_plans_options p label {
+	float: none;
+	margin: 0px !important;
+	display: inline-block;
+}
+
+div.show_if_subscription div.braintree_plans_options p, div.show_if_subscription div.braintree_plans_options p select,
+	div.show_if_subscription div.braintree_plans_options p span, div.show_if_subscription div.braintree_plans_options p button,
+	div.show_if_subscription div.braintree_plans_options p input {
+	float: none !important;
+}
+
+div.show_if_subscription .div_braintree_plans
+.div_braintree_plans p.braintree_plans {
+	display: inline-block;
+}
+
+.div_braintree_plans button {
+	margin-left: 10px !important;
+}
+
+.div_braintree_plans .saved_braintree_plans {
+	margin-left: 25px;
+	margin-right: 25px;
+	margin-bottom: 10px;
+}
+
+div.show_if_subscription .div_braintree_plans .saved_braintree_plans {
+	clear: left;
+	overflow: hidden;
+}
+
+div.saved_braintree_plans p.saved_braintree_plan {
+	padding: 10px 0px;
+	border-top: 1px solid #eee;
+	border-bottom: 1px solid #eee;
+	margin-top: -1px;
+	margin-bottom: 0px;
+}
+
+div.show_if_subscription h3 {
+	clear: left;
+	width: 100%;
+}
+
+div.show_if_subscription p.saved_braintree_plan {
+	float: left;
+	width: 100%;
+}
+
+div.saved_braintree_plans p.saved_braintree_plan label {
+	float: none;
+	margin: 0px !important;
+}
+
+p.saved_braintree_plan span {
+	margin-left: 20px;
+}
+
+div.addPlanOverlay {
+	display: none;
+	width: 100%;
+	background: rgba(255, 255, 255, 0.8);
+	height: 100%;
+	z-index: 99999;
+	position: absolute;
+	top: -50%;
+	left: -50%;
+	transform: translate(50%, 50%);
+	-webkit-transform: translate(50%, 50%);
+	ms-transform: translate(50%, 50%);
+	margin: 0px;
+}
+
+.dynamic-descriptor-tip {
+	display: inline-block;
+}
+
+.dynamic-descriptor-tip:after {
+	font-family: WooCommerce;
+	speak: none;
+	font-weight: 400;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	margin: 0;
+	text-indent: 0;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	content: '';
+	cursor: help;
+}
+
+.dynamic_descriptor_tutorial, .paypalDesignModal, .customFormDesignModal {
+	display: none;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(255, 255, 255, 0.95);
+	z-index: 999999;
+	overflow-y: scroll;
+}
+
+.dynamic_descriptor_help, .paypalDesignLink, .customFormDesignLink {
+	margin-left: 20px;
+	cursor: pointer;
+	color: #3c94d4;
+}
+
+.dynamic_descriptor_tutorial .explanation {
+	max-width: 600px;
+	position: relative;
+	margin-left: 40px;
+	margin-top: 40px;
+}
+
+.dynamic_descriptor_tutorial div div {
+	margin-left: 20px;
+}
+
+.dynamic_descriptor_tutorial div ul li {
+	list-style-type: disc;
+}
+
+.dynamic_descriptor_tutorial .close {
+	right: 10px;
+	top: -20px;
+	cursor: pointer;
+	color: #3c94d4;
+	position: absolute;
+	color: #3c94d4;
+}
+
+.tutorials_subscription_type {
+	display: none;
+}
+
+.braintree-plugin-questions {
+	margin-top: 10px;
+}
+
+h2.braintree-warning {
+	line-height: 170%;
+}
+
+.braintree-purchase-license {
+	padding-left: 20px;
+}
+
+.notice.notice-error {
+	border-left: 12px solid #dc3232
+}
+
+.notice.notice-error p {
+	font-size: 26px;
+}
+
+.notice.notice-success p {
+	font-size: 20px;
+}
+
+.braintree-merchant-account-note,
+.braintree-admin-settings-note {
+	margin: 10px 0px;
+}
+
+#merchant_account_currency {
+	max-width: 300px;
+}
+
+.paypalDesignOption {
+	margin: 10px 0px;
+}
+
+.paypalDesignModal .closePayPalDesignModal, .customFormDesignModal .closeCustomFormDesignModal
+	{
+	right: 10px;
+	top: 10px;
+	cursor: pointer;
+	color: #3c94d4;
+	position: absolute;
+	color: #3c94d4;
+	font-size: 16px;
+}
+
+.paypalDesignContainer, .customFormDesignContainer {
+	margin: 20px;
+}
+
+.paypalDesignContainer .instructions, .customFormDesignContainer .instructions
+	{
+	max-width: 600px;
+}
+.customFormDesignContainer textarea{
+	width: 100%;
+}
+#braintree-order-settlement-box{
+	display: none;
+}

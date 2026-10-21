@@ -1,0 +1,73 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+.cart_bucks{ padding: 20px; margin: 10px;}
+.cart_bucks .bucks{background: rgba(0, 0, 0, 0) url("/wp-content/uploads/2016/05/moneyicon.jpg") no-repeat scroll 0 10px; width: 152px; padding: 20px 50px 20px 40px; font-size: 18px; font-weight: bold; }
+
+.woocommerce a.remove{ color: grey !important;}
+
+.alert{ padding: 20px 20px 10px 90px; margin: 5px auto;}
+.alert.alert-info{ border-top: 5px solid #75a9f9; background: #f7f6f6 url(../images/icon-info.png) 40px 20px no-repeat;}
+.alert.alert-green{ border-top: 5px solid #72bb53; background: #f7f6f6 url(../images/icon-check.png) 40px 20px no-repeat;}
+.alert.alert-bgbucks{ border-top: 5px solid #75a9f9; background: #f7f6f6 url(../images/icon-dollar.png) 40px 20px no-repeat;}
+
+.cart_playersclub{ width: 50%; float: left; }
+.cart_playersclub .cart_playersclub_graphic{ float: left; width: 40%; margin: 0;padding-top: 30px;}
+.cart_playersclub .cart_playersclub_compute{ float: right; width: 50%; margin: 0; padding-top: 50px;}
+.cart_playersclub .cart_playersclub_compute p{ font-size: 12px;}
+.cart_playersclub .cart_playersclub_compute p .figure{ width: 80px; padding: 5px; display: inline-block; padding-left: 20px; text-align: right;}
+
+
+.bgreward_redeem{background: #ff5d55 !important;
+    border: 1px solid #dc8703;
+    box-shadow: 1px 1px 3px 0 rgba(50, 50, 50, 0.55);
+    color: #fff;}
+.keep_shopping{background: #ff9c01  !important;
+    border: 1px solid #dc8703;
+    box-shadow: 1px 1px 3px 0 rgba(50, 50, 50, 0.55);
+    color: #fff;}    
+.popup_btnsubmit{
+	background: #ff9c01 none repeat scroll 0 0;
+    border: 1px solid #dc8703;
+    box-shadow: 1px 1px 3px 0 rgba(50, 50, 50, 0.55);
+    color: #fff;
+     border-radius: 3px;
+    box-shadow: none;
+    color: #515151;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 100%;
+    font-weight: 700;
+    left: auto;
+    line-height: 1;
+    margin: 0;
+    overflow: visible;
+    padding: 0.618em 1em;
+    position: relative;
+    text-decoration: none;
+    text-shadow: none;
+    white-space: nowrap;
+}    
+
+#add_payment_method #payment ul.payment_methods, .woocommerce-cart #payment ul.payment_methods, .woocommerce-checkout #payment ul.payment_methods{
+    border-bottom: none !important;
+}
+#add_payment_method #payment, .woocommerce-cart #payment, .woocommerce-checkout #payment { background-color: #FFF !important;}
+#add_payment_method #payment div.payment_box, .woocommerce-cart #payment div.payment_box, .woocommerce-checkout #payment div.payment_box{ background-color: #FFF !important;}
+
+/*form inputs*/
+.woocommerce form .form-row input.input-text, .woocommerce form .form-row textarea{ background-color: #e9e9e9 !important; border: 1px solid #aeaeae !important; border-radius: 0px !important; color: #434343 !important;}
+/*payment form CC*/
+.simple-form .form-group{ width: 45% !important;}
+.simple-form .form-group .hosted-field {background-color: #e9e9e9 !important; border: 1px solid #aeaeae !important; border-radius: 0px !important; color: #434343 !important; height: 40px !important; padding: 3px !important; font-family: "Helvetica Neue",Helvetica,Arial,sans-serif !important;}
+.simple-form { border: none !important;}
+
+ul.checkout_info { list-style: none;}
+ul.checkout_info li{ height: 120px; padding: 10px; list-style: none;}
+ul.checkout_info li h3{ color: #3fbffe;}
+ul.checkout_info li p{ margin-left: 50px; line-height: 14px; font-size: 12px;}
+
+body.woocommerce-checkout .woocommerce table.shop_table { width: 50% !important;}
+body.woocommerce-checkout #account_password { width: 50% !important;}
+.tax-total.recurring-total,.recurring-totals, .cart-subtotal.recurring-total{display: none;}
